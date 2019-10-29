@@ -12,8 +12,8 @@ import (
 	"github.com/sirupsen/logrus"
 
 	"github.com/gogap/config"
-	"github.com/gogap/logrus_mate"
-	"github.com/gogap/logrus_mate/hooks/utils/caller"
+	"github.com/klahdenk/logrus_mate"
+	"github.com/klahdenk/logrus_mate/hooks/utils/caller"
 )
 
 type fileHookConfig struct {

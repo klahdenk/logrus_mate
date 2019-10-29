@@ -6,8 +6,8 @@ import (
 	"github.com/klahdenk/logrus_mate"
 	"github.com/sirupsen/logrus"
 
-	_ "github.com/gogap/logrus_mate/hooks/expander"
-	_ "github.com/gogap/logrus_mate/hooks/file"
+	_ "github.com/klahdenk/logrus_mate/hooks/expander"
+	_ "github.com/klahdenk/logrus_mate/hooks/file"
 )
 
 func main() {

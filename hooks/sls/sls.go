@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/gogap/config"
-	"github.com/gogap/logrus_mate"
+	"github.com/klahdenk/logrus_mate"
 
 	"github.com/aliyun/aliyun-log-go-sdk"
 	"github.com/gogo/protobuf/proto"
