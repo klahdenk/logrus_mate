@@ -19,7 +19,7 @@ func init() {
 
 func NewJSONFormatter(config config.Configuration) (logrus.Formatter, error) {
 	var format string
-	var fieldMap logrus.FieldMap
+	var fieldMap = logrus.FieldMap{}
 
 	configuration := config.GetConfig("field-overrides")
 
